@@ -1,25 +1,52 @@
+Epic Fight MineColonies Compatibility
 
-Installation information
-=======
+Bring your colonies into the battlefield with true integration between Epic Fight and MineColonies.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+This mod bridges the gap between MineColonies' citizens, guards, raiders, and mercenaries with Epic Fight's advanced combat and animation systems, allowing both mods to work together seamlessly.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+Features
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+Epic Fight Combat Integration
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+MineColonies guards, raiders, and mercenaries can properly use Epic Fight's combat system.
+Attacks are handed over to Epic Fight instead of using standard vanilla damage handling.
+Keeps MineColonies AI while allowing Epic Fight to handle combat execution.
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+Dynamic Model Compatibility
+
+MineColonies uses many different citizen models based on profession and gender.
+This mod dynamically converts MineColonies models into Epic Fight compatible meshes at runtime.
+No replacement models or additional textures are required.
+
+Citizen Support
+
+Supports MineColonies citizens and visitors.
+Profession-specific and gender-specific models are preserved.
+Citizens continue using MineColonies' own models and textures.
+
+Raider & Mercenary Support
+
+Supports MineColonies raiders, camp variants, and mercenaries.
+Custom MineColonies models are converted automatically for Epic Fight rendering.
+Why This Mod Exists
+
+Epic Fight and MineColonies are both popular mods that add very different experiences:
+
+MineColonies creates living settlements with workers, guards, and civilizations.
+Epic Fight transforms Minecraft combat into a more action-oriented RPG system.
+
+This mod connects the two, allowing your colony to feel like part of a larger adventure instead of two separate systems running side-by-side.
+
+Technical Notes
+
+This mod does not include replacement textures, models, or copied assets. Instead, it acts as a compatibility layer that translates MineColonies' existing models and combat behaviour into Epic Fight's systems.
+
+Requirements
+MineColonies
+Epic Fight
+NeoForge 1.21.1
+Modpack Usage
+
+Feel free to include this mod in your modpacks. Attribution is appreciated but not required.
+
+Created to bring a more cohesive RPG experience to MineColonies + Epic Fight modpacks.
