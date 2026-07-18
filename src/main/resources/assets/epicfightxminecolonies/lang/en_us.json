@@ -1,0 +1,13 @@
+{
+  "itemGroup.epicfightxminecolonies": "Example Mod Tab",
+  "block.epicfightxminecolonies.example_block": "Example Block",
+  "item.epicfightxminecolonies.example_item": "Example Item",
+
+  "epicfightxminecolonies.configuration.title": "epic fight x minecolonies  Configs",
+  "epicfightxminecolonies.configuration.section.epicfightxminecolonies.common.toml": "epic fight x minecolonies  Configs",
+  "epicfightxminecolonies.configuration.section.epicfightxminecolonies.common.toml.title": "epic fight x minecolonies  Configs",
+  "epicfightxminecolonies.configuration.items": "Item List",
+  "epicfightxminecolonies.configuration.logDirtBlock": "Log Dirt Block",
+  "epicfightxminecolonies.configuration.magicNumberIntroduction": "Magic Number Text",
+  "epicfightxminecolonies.configuration.magicNumber": "Magic Number"
+}

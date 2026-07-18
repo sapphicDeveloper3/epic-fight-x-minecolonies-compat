@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.sapphic.efxmco.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CombatAIMixin$GuardCombatAIMixin",
+    "CombatAIMixin$RaiderCombatAIMixin",
+    "CombatAIMixin$MercenaryCombatAIMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
