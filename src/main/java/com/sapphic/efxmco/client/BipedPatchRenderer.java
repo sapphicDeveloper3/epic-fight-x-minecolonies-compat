@@ -8,7 +8,7 @@ import net.neoforged.api.distmarker.OnlyIn;
 import yesman.epicfight.api.client.model.Meshes;
 import yesman.epicfight.client.mesh.HumanoidMesh;
 import yesman.epicfight.client.renderer.patched.entity.PCustomHumanoidEntityRenderer;
-
+//note this is dead code safe to remove in the next update
 /**
  * Epic Fight's renderer for every MineColonies patched mob: citizens/visitors, raiders (and their
  * camp variants), and mercenaries all use a HumanoidModel skeleton (see {@link
