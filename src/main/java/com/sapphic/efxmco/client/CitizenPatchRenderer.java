@@ -8,7 +8,7 @@ import net.neoforged.api.distmarker.OnlyIn;
 import yesman.epicfight.api.client.model.Meshes;
 import yesman.epicfight.client.mesh.HumanoidMesh;
 import yesman.epicfight.client.renderer.patched.entity.PCustomHumanoidEntityRenderer;
-
+//note this class is dead code
 /**
  * Epic Fight's renderer for MineColonies citizens (and visitors). Citizens use a HumanoidModel
  * skeleton (see {@link com.sapphic.efxmco.compat.CitizenEntityPatch}), so this just wires them up
